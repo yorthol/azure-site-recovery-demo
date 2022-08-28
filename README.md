@@ -26,7 +26,7 @@ Azure Bastion has been deployed into the primary region virtual network. Both th
 ### Prerequisites
 1. You must hold at least the [Contributor RBAC role](https://docs.microsoft.com/en-us/azure/role-based-access-control/built-in-roles#contributor) at the subscription scope in the subscription the resources will be deployed to.
 
-2. You must be capable of deploying resources to two regions. The regions must support availability zones. The templates are configured to allow deployment to regions within the US geopolitical region that support availability zones as 2022.?If you wish to deploy to another geopolitical region, you will need to modify the azuredeploy.json template.
+2. You must be capable of deploying resources to two regions. The regions must support availability zones. The templates are configured to allow deployment to regions within the US geopolitical region that support availability zones as 2022. If you wish to deploy to another geopolitical region, you will need to modify the azuredeploy.json template.
 
 3. The virtual machines created in this deployment are deployed into availability zones. The region(s) you deploy the resources to [must support availability zones](https://docs.microsoft.com/en-us/azure/availability-zones/az-region).
 
