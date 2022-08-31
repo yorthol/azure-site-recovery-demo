@@ -8,7 +8,7 @@ The artifacts in this repository are focused on the following use cases:
 * Replication of VMWare VMs to Azure
 
 ## Artifacts
-The artifacts include a PowerPoint overview deck, deployable lab to learn and demonstrate features and capabilities, and a step-by-step guide on how to demonstrate specific features (COMING SOON).
+The artifacts include a PowerPoint overview deck, deployable lab to learn and demonstrate features and capabilities, and a step-by-step guide on how to demonstrate specific features.
 
 ## Lab Environment
 The deployable lab included in this repository is coded using [ARM resource templates](https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/syntax) and uses a combination of PowerShell and Bash scripts and DSC to pre-configure resources deployed.
@@ -56,10 +56,14 @@ Click the Deploy To Azure button below.
 4.  You will be prompted to provide a password for the local administrator of the virtual machine.
 
 ### Post Configuration
-The support in ARM for Azure Site Recovery is limited. Before performing a test failover, it's recommended that you modify the replicated items to set the virtual network and subnet the machines are failed over to when testing failover. See below as an example.
+1. The support in ARM for Azure Site Recovery is limited. Before performing a test failover, it's recommended that you modify the replicated items to set the virtual network and subnet the machines are failed over to when testing failover. See below as an example.
 
 ![post config](images/post-config.png)
 
+2. Leave the environment running for at least few hours (24 hours is ideal) to generate recovery points and logging data. Virtual machines should be left on during this time period.
+
+### Exercises
+This repository contains a collection of exercises you can perform with the lab to learn or demonstrate the core features of Azure Site Recovery. You can find [the exercises here](/exercises/exercises.md).
 ### Removal of Resources
 It is very important you follow the instructions below when you are done with the lab. If you do not follow these instructions, it could result in shadow resources which will require you to work with support to remove.
 
