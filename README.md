@@ -63,7 +63,8 @@ Click the Deploy To Azure button below.
 2. Leave the environment running for at least few hours (24 hours is ideal) to generate recovery points and logging data. Virtual machines should be left on during this time period.
 
 ### Exercises
-This repository contains a collection of exercises you can perform with the lab to learn or demonstrate the core features of Azure Site Recovery. You can find [the exercises here](/exercises/exercises.md).
+This repository contains a collection of exercises you can perform with the lab to learn or demonstrate the core features of Azure Site Recovery. You can find [the exercises here](/exercises/README.md).
+
 ### Removal of Resources
 It is very important you follow the instructions below when you are done with the lab. If you do not follow these instructions, it could result in shadow resources which will require you to work with support to remove.
 
