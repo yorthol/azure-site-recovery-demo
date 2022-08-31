@@ -42,13 +42,13 @@ At this point your recovery plan should look like the screenshot below.
 
 ![recovery plan v2](../images/exercise5-image6.png)
 
-Navigate back to the list of recovery plans and select the recovery plan you created. Click on the test failover link to initiate a test failure. You leave the recovery point to the default but you must select the target virtual network. Once complete, click OK and the test failover will begin.
+Navigate back to the list of recovery plans and select the recovery plan you created. Click on the test failover link to initiate a test failure. You can leave the recovery point to the default but you must select the target virtual network. Once complete, click OK and the test failover will begin.
 
 Once the frontend VM is failed over, the service will notify that you that it is waiting on a user action to move on to the backend VM as seen in the image below.
 
 ![recovery job](../images/exercise5-image7.png)
 
-Select the ellipses next to the manual action and select complete manual action. You're able to provide notes about the action and mark it complete. You can then click the OK button to move the recovery plan forward to failover the backend VM. This area of the Portal has the same bug as we previously saw. Click the gray X again and ignore the browser error about losing unsaved edit.
+Select the ellipses next to the manual action and select complete manual action. You're able to provide notes about the action and mark it complete. You can then click the OK button to move the recovery plan forward to failover the backend VM. This area of the Portal has the same bug as we previously saw. Click the gray X again and ignore the browser error about losing an unsaved edit.
 
 ![complete manual action](../images/exercise5-image8.png)
 
