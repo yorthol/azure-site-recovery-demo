@@ -28,7 +28,7 @@ This policy is configured for application-consistent snapshot because it used by
 
 Navigate back to the Site Recovery infrastructure page. Select the Network mapping link under the for Azure virtual machines section.
 
-Network mappings are used by Azure Site Recovery to map the destination virtual network a machine should be failover over to. This lab has two network mappings configured. One network mapping maps the virtual network in the primary region to the virtual network in the destination region for failover. The other mapping maps the virtual network in the secondary region to the virtual netwokr in the primary region for failback.
+Network mappings are used by Azure Site Recovery to map the destination virtual network a machine should be failover over to. This lab has two network mappings configured. One network mapping maps the virtual network in the primary region to the virtual network in the destination region for failover. The other mapping maps the virtual network in the secondary region to the virtual network in the primary region for failback.
 
 ![list of network mappings](../images/exercise2-image5.png)
 
