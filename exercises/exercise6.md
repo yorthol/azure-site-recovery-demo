@@ -1,6 +1,6 @@
 ## Exercise 6 - Operating Azure Site Recovery
 
-Azure Site Recovery provides signals in the form of Site Recovery jobs and events which are viewable within the Recovery Service Vault. The Recovery Services Vault also supports diagnostic logs which provide additional logs and metrics which can be sent to an upstream SIEM via an Event Hub, to Azure Storage, or Log Analytics Workspace.
+Azure Site Recovery provides signals in the form of Site Recovery jobs and events which are viewable within the Recovery Service Vault. The Recovery Services Vault also supports integration with diagnostic settings which provide additional logs and metrics which can be sent to an upstream SIEM via an Event Hub, to Azure Storage, or Log Analytics Workspace.
 
 Open the Azure Portal and select the resource group that begins with rgasrvltsec. Select the Recovery Services Vault that begins with vltasr. On the overview page select the Site Recovery option to get a quick view of the status of replication for the machines associated with the vault.
 
